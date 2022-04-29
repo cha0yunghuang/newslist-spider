@@ -7,6 +7,6 @@ import scrapy
 
 
 class NewslistItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    post_title = scrapy.Field()
+    post_date = scrapy.Field()
     pass
